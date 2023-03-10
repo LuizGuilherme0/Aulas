@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/eat-sleep-code-repeat-black-background-programmer-quotes-2560x2560-5947.png);
+    background-repeat: no-repeat;
+    
+}
+
+section .image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 320px;
+    height: 290px;
+    border-radius: 50%;
+    border:  purple;
+}
+
+section{
+    text-align: center;
+    padding-top: 0.6rem;
+    color: white;
+    font-size: 1.3rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    padding: 0 25px;
+
+}
+
