@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -39,3 +42,28 @@ section{
 
 }
 
+@media (max-width: 768px){
+    section .image{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 270px;
+    }
+
+    .titulo, .par1, .par2{
+        font-size: 1.2rem;
+        padding: 2px 7px;
+        
+    }
+
+    .btn-group{
+        padding: 7px 25px;
+    }
+    
+}
+
+@media (max-width: 372px){
+    .btn-group{
+        padding: 7px 15px;
+    }
+}
